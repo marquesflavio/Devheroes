@@ -13,12 +13,18 @@
 [] Layout responsivo
 
 ## Execução    
-[] Fazer ele com Git, através do terminal.
-[] Definir desenho do site
+[X] Fazer ele com Git, através do terminal.
+[X] Definir desenho do site
 [] Pegar imagens dos personagens
-[] Criar o arquivo React
-[] Estruturar o JSON
-[] Fazer o CSS
+[X] Criar o arquivo React
+[] Fazer cabeçalho
+[] Fazer sessão dos herois
+    - input com nome
+    - classe com selector
+    - característica especial
+    - botão de criar
+[] Fazer carrossel com os heróis criados
+[] Criar rodapé
 
 ## Pós 
 ●	O que aprendeu com o projeto - Destacar partes do código para cada aprendizado

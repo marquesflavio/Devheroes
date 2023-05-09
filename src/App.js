@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Heroes from "./components/Herois";
+
 function App() {
   return (
     <div>
-      <a>Oi</a>
+      <Header/>
+      <Heroes/>
     </div>
   );
 }
