@@ -1,11 +1,14 @@
+// import Botao from "./components/Botao/Botao";
+import Formulario from "./components/Formulario/Formulario";
 import Header from "./components/Header";
-import Heroes from "./components/Herois";
+
+
 
 function App() {
   return (
     <div>
       <Header/>
-      <Heroes/>
+      <Formulario/>
     </div>
   );
 }

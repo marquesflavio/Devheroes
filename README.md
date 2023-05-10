@@ -15,9 +15,9 @@
 ## Execução    
 [X] Fazer ele com Git, através do terminal.
 [X] Definir desenho do site
-[] Pegar imagens dos personagens
+[X] Pegar imagens dos personagens
 [X] Criar o arquivo React
-[] Fazer cabeçalho
+[X] Fazer cabeçalho
 [] Fazer sessão dos herois
     - input com nome
     - classe com selector
