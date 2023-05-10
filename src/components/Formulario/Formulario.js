@@ -1,23 +1,29 @@
 import Botao from "../Botao/Botao"
 import Heroes from "../Heroes"
 import './Formulario.css'
+import ListaSuspensa from "../ListaSuspensa"
 
 function Formulario (){
+
+
+
     return(
-        <section className="formulario">
-                <form>
+        <section className="container-formulario">
+                <form className="formulario">
                 <Heroes
                     label="Nome:"
-                    placeholder="digite o nome do seu herói..."            
+                    placeholder="Digite o nome do seu herói..."            
                 />
-                <Heroes
-                    label="Classe:"
-                                
+                <ListaSuspensa
+                    label="Classe: "
                 />
                 
-                
+                <ListaSuspensa
+                    label="Característica: "
+                />
+
                 <Botao>
-                    "Criar Personagem"
+                    Criar Personagem
                 </Botao>
                 
 

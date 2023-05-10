@@ -1,11 +1,12 @@
 // import {useState} from 'react'
+import './Heroes.css'
 
 const Heroes = (props) => {
     return(
-        <div className="container-heroes">
+        <div className="heroes">
 
-            <label>{props.label} </label>
-            <input value={props.valor} placeholder={props.placeholder} ></input>  
+            <label for='heroes'>{props.label} </label>
+            <input id='heroes' value={props.valor} placeholder={props.placeholder} ></input>  
         </div>
     )
 }
