@@ -1,5 +1,6 @@
 // import Botao from "./components/Botao/Botao";
 import DevHeroes from "./components/DevHeroes";
+import Footer from "./components/Footer";
 import Formulario from "./components/Formulario/Formulario";
 import Header from "./components/Header";
 
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Formulario/>
       <DevHeroes/>
+      <Footer/>
     </div>
   );
 }
