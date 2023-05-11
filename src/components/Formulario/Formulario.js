@@ -4,7 +4,12 @@ import './Formulario.css'
 import ListaSuspensa from "../ListaSuspensa"
 
 function Formulario (){
-    
+
+    const criarPersonagem = (e) => {
+        e.preventDefault()
+        // aqui as imagens serão criadas cfe a classe
+    }
+
     const personagens =[
         "Bárbaro",
         "Bardo",
@@ -23,7 +28,7 @@ function Formulario (){
 
     return(
         <section className="container-formulario">
-                <form className="formulario">
+                <form className="formulario" onSubmit={criarPersonagem}>
                 <Heroes
                     label="Nome:"
                     placeholder="Digite o nome do seu herói..."            

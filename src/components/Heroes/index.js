@@ -2,10 +2,14 @@
 import './Heroes.css'
 
 const Heroes = (props) => {
+
+    const aoPreenchido = (e) => { /*função para pegar cada valor digitado. O React é orientado a eventos*/
+        console.log(e.target.value)
+    }
     return(
         <div className="heroes">
             <label htmlFor='heroes'>{props.label} </label>
-            <input id='heroes' value={props.valor} placeholder={props.placeholder} ></input>  
+            <input onChange={aoPreenchido} id='heroes' value={props.valor} placeholder={props.placeholder} ></input>  
         </div>
     )
 }
