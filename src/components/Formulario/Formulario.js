@@ -4,8 +4,22 @@ import './Formulario.css'
 import ListaSuspensa from "../ListaSuspensa"
 
 function Formulario (){
+    
+    const personagens =[
+        "Bárbaro",
+        "Bardo",
+        "Elfo",
+        "Mago",
+        "Princesa"
+    ]
 
-
+    const caracteristicas =[
+        "Força",
+        "Canto",
+        "Flechas",
+        "Magia",
+        "Doçura"
+    ]
 
     return(
         <section className="container-formulario">
@@ -16,10 +30,13 @@ function Formulario (){
                 />
                 <ListaSuspensa
                     label="Classe: "
+                    itens={personagens}
                 />
                 
                 <ListaSuspensa
                     label="Característica: "
+                    itens={caracteristicas}
+                    
                 />
 
                 <Botao>

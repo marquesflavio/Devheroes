@@ -19,9 +19,9 @@
 [X] Criar o arquivo React
 [X] Fazer cabeçalho
 [] Fazer sessão dos herois
-    - input com nome
-    - classe com selector
-    - característica especial
+    - input com nome OK
+    - classe com selector OK
+    - característica especial 
     - botão de criar
 [] Fazer carrossel com os heróis criados
 [] Criar rodapé
