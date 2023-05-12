@@ -19,11 +19,11 @@ function Formulario (){
     ]
 
     const caracteristicas =[
-        "Força",
-        "Canto",
-        "Flechas",
-        "Magia",
-        "Doçura"
+        "Muita força e pouco cérebro",
+        "Voz afinada e dedilhados precisos",
+        "Flechas brilhantes e cabelos sedosos",
+        "Magia e capacidade de sumir após devaneios",
+        "Modos doces e bom gosto para vestidos"
     ]
 
     return(

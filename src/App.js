@@ -1,4 +1,5 @@
 // import Botao from "./components/Botao/Botao";
+import Carousel from "./components/Carousel";
 import DevHeroes from "./components/DevHeroes";
 import Footer from "./components/Footer";
 import Formulario from "./components/Formulario/Formulario";
@@ -47,10 +48,12 @@ function App() {
   return (
     <div>
       <Header/>
+
       <Formulario/>
+
       {/* Montando o time de forma dinâmica */}
       {times.map(time =><DevHeroes key={time.classe} classe={time.classe} corDeFundo={time.corDeFundo}/>)}
-
+      <Carousel/>
       <Footer/>
     </div>
   );
