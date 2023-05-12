@@ -1,14 +1,12 @@
 .devheroes{
-    background-color: #FFF;
+    /* background-color: #FFF; */
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.486);
     padding: 20px;
-    width: 85%;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    
-    
     
 }
