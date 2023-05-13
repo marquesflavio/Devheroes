@@ -4,11 +4,15 @@ import Botao from '../Botao'
 import './Formulario.css'
 import { useState } from 'react'
 
-const Formulario = () =>{
+const Formulario = (props) =>{
 
     function criaHeroi(e){
         e.preventDefault()
-        console.log('submeteu', nome, classe, caract)
+        props.heroiCadastrado({
+            nome, 
+            classe, 
+            caract
+        })
 
 
     }
