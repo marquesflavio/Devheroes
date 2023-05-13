@@ -2,8 +2,20 @@ import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
 import Botao from '../Botao'
 import './Formulario.css'
+import { useState } from 'react'
 
 const Formulario = () =>{
+
+    function criaHeroi(e){
+        e.preventDefault()
+        console.log('submeteu', nome, classe, caract)
+
+
+    }
+
+    const [nome, setNome] = useState('')
+    const [classe, setClasse] = useState('')
+    const [caract, setCaract] = useState('')
 
     const classes = [
         'Bábaro',
@@ -23,19 +35,26 @@ const Formulario = () =>{
 
     return(
         <div className='container-formulario'>
-            <form>
+            <form onSubmit={criaHeroi} >
                 <CampoTexto
                     label="Nome: "
                     placeholder="Digite o nome do seu herói..."
+                    valor={nome}
+                    aoAlterado={valor => setNome(valor)}
         
                 />
                 <ListaSuspensa
                     label="Classe:"
                     itens={classes}
+                    valor={classe}
+                    aoAlterado={valor => setClasse(valor)}
+
                 />
                 <ListaSuspensa
                     label="Característica:"
                     itens={caracteristicas}
+                    valor={caract}
+                    aoAlterado={valor => setCaract(valor)}
                 
                 />
 
