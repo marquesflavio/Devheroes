@@ -1,12 +1,13 @@
 import './ListaSuspensa.css'
 
-function ListaSuspensa(props){
+function ListaSuspensa(props){   
     return(
         <div className='lista-suspensa'>
             <label>{props.label}</label>
             <select className='lista-suspensa-selecao'>
-                {props.itens.map(item => <option key={item}>{item}</option>)}                
+                {props.itens.map(item =><option>{item}</option>)}
             </select>
+           
         </div>
     )
 }

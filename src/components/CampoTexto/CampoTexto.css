@@ -1,4 +1,4 @@
-.heroes{
+.campo-texto{
     /* background-color: gray; */
     font-size: 24px;
     font-weight: bold;
@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
 }
-.heroes input{
+.campo-texto input{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
     border-radius: 10px;
     height: 50px;
