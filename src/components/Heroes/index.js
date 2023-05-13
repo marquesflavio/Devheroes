@@ -1,13 +1,15 @@
-// import {useState} from 'react'
+import { useState } from 'react'
 import './Heroes.css'
 
 const Heroes = (props) => {
 
-    // let nomeHeroi = ''
+
+
+    const [nomeHeroi, setNomeHeroi]= useState('')
 
     const aoPreenchido = (e) => { /*função para pegar cada valor digitado. O React é orientado a eventos*/
-        console.log(e.target.value)
-        // nomeHeroi = (e.target.value)
+    setNomeHeroi(e.target.value)
+    console.log(nomeHeroi)
     }
     return(
         <div className="heroes">

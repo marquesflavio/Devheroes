@@ -14,32 +14,27 @@ function App() {
     {
       classe: 'Bárbaro',
       corDeFundo: '#8F694F',
-      imagem: '',
-      caracteristica: ''
+      imagem: ''
     },
     {
       classe: 'Bardo',
       corDeFundo: '#DE4D26',
-      imagem: '',
-      caracteristica: ''
+      imagem: ''
     },
     {
       classe: 'Elfo',
       corDeFundo: '#8BC34A',
-      imagem: '',
-      caracteristica: ''
+      imagem: ''
     },
     {
       classe: 'Mago',
       corDeFundo: '#0C95EB',
-      imagem: '',
-      caracteristica: ''
+      imagem: ''
     },
     {
       classe: 'Princesa',
       corDeFundo: '#E91E63',
-      imagem: '',
-      caracteristica: ''
+      imagem: ''
     }
     
   ]
