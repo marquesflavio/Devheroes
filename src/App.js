@@ -3,6 +3,11 @@ import Formulario from "./components/Formulario"
 import Footer from "./components/Footer"
 import { useState } from "react";
 import DevHeroes from "./components/DevHeroes";
+import barbaro from './components/DevHeroes/imagem/barbaro.png'
+import bardo from './components/DevHeroes/imagem/bardo.png'
+import elfo from './components/DevHeroes/imagem/elfo.png'
+import mago from './components/DevHeroes/imagem/mago.png'
+import princesa from './components/DevHeroes/imagem/princesa.png'
 
 
 function App() {
@@ -10,33 +15,33 @@ function App() {
        
   const classes = [
     {
-      nome: 'Bárbaro',
+      tipo: 'Bárbaro',
       corDeFundo: '#795548',
-      imagem: 'barbaro.png',
+      imagem: barbaro,
       caracteristica: 'Muita força e pouco cérebro'
     },
     {
-      nome: 'Bardo',
+      tipo: 'Bardo',
       corDeFundo: '#F44336',
-      imagem: './images/bardo.png',
+      imagem: bardo ,
       caracteristica: 'Acordes afinados e dedos ágeis'
     },
     {
-      nome: 'Elfo',
+      tipo: 'Elfo',
       corDeFundo: '#8BC34A',
-      imagem: './images/elfo.png',
+      imagem: elfo,
       caracteristica: 'Flechas brilhantes e cabelos sedosos'
     },
     {
-      nome: 'Mago',
+      tipo: 'Mago',
       corDeFundo: '#00BCD4',
-      imagem: './images/mago.png',
+      imagem: mago,
       caracteristica: 'Habilidade de sumir após dicas confusas'
     },
     {
-      nome: 'Princesa',
+      tipo: 'Princesa',
       corDeFundo: '#E91E63',
-      imagem: './images/princesa.png',
+      imagem: princesa,
       caracteristica: 'Conquista até o inimigo'
     },
 ]
@@ -52,14 +57,18 @@ function App() {
     <div>
       <Header/>
       <Formulario 
-        classes={classes.map(classe => classe.nome)} //refatorando para a lista de herois ficar num lugar só.
+        classes={classes.map(classe => classe.tipo)} //refatorando para a lista de herois ficar num lugar só.
         caracteristicas={classes.map(item => item.caracteristica)}//refatorando para a lista de herois ficar num lugar só.
         heroiCadastrado={heroi => novoHeroiAdicionado(heroi)}
       />
-      {classes.map(classe => <DevHeroes key={classe.nome} nome ={classe.nome}
+      {classes.map(classe => <DevHeroes 
+      key={classe.tipo} 
+      tipo ={classe.tipo}
       corDeFundo={classe.corDeFundo}
       caracteristica={classe.caracteristica}
       imagem={classe.imagem}
+      herois={herois}
+      nome=''
       />)}
       <Footer/>
 

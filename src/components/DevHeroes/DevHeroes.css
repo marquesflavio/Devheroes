@@ -3,15 +3,31 @@
     margin: 20px auto;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.486);
     padding: 20px;
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
     
+}
+.devheroes h1{
+    border-bottom:  4px solid;
+    padding-bottom: 5px;
+    margin: 5px 0;
+   
 }
 .devheroes h2{
     border-bottom:  4px solid;
     display: inline-block;
     padding-bottom: 5px;
+   
     
+}
+.devheroes img{
+    width: 350px;
+    height: 400px;
+    background-color: #FFF;
+   
 }
 

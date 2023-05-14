@@ -13,29 +13,13 @@ const Formulario = (props) =>{
             classe, 
             caract
         })
-
-
+        
     }
+    
 
     const [nome, setNome] = useState('')
     const [classe, setClasse] = useState('')
     const [caract, setCaract] = useState('')
-
-    // const classes = [
-    //     'Bábaro',
-    //     'Bardo',
-    //     'Elfo',
-    //     'Mago',
-    //     'Princesa'
-    // ]
-
-    // const caracteristicas = [
-    //     'Muita força e pouco cérebro',
-    //     'Acordes afinados e dedos ágeis',
-    //     'Flechas brilhantes e cabelos sedosos',
-    //     'Habilidade de sumir após dicas confusas',
-    //     'Conquista até o inimigo'
-    // ]
 
     return(
         <div className='container-formulario'>
