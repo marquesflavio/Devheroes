@@ -21,21 +21,21 @@ const Formulario = (props) =>{
     const [classe, setClasse] = useState('')
     const [caract, setCaract] = useState('')
 
-    const classes = [
-        'Bábaro',
-        'Bardo',
-        'Elfo',
-        'Mago',
-        'Princesa'
-    ]
+    // const classes = [
+    //     'Bábaro',
+    //     'Bardo',
+    //     'Elfo',
+    //     'Mago',
+    //     'Princesa'
+    // ]
 
-    const caracteristicas = [
-        'Muita força e pouco cérebro',
-        'Acordes afinados e dedos ágeis',
-        'Flechas brilhantes e cabelos sedosos',
-        'Habilidade de sumir após dicas confusas',
-        'Conquista até o inimigo'
-    ]
+    // const caracteristicas = [
+    //     'Muita força e pouco cérebro',
+    //     'Acordes afinados e dedos ágeis',
+    //     'Flechas brilhantes e cabelos sedosos',
+    //     'Habilidade de sumir após dicas confusas',
+    //     'Conquista até o inimigo'
+    // ]
 
     return(
         <div className='container-formulario'>
@@ -49,14 +49,14 @@ const Formulario = (props) =>{
                 />
                 <ListaSuspensa
                     label="Classe:"
-                    itens={classes}
+                    itens={props.classes}
                     valor={classe}
                     aoAlterado={valor => setClasse(valor)}
 
                 />
                 <ListaSuspensa
                     label="Característica:"
-                    itens={caracteristicas}
+                    itens={props.caracteristicas}
                     valor={caract}
                     aoAlterado={valor => setCaract(valor)}
                 
