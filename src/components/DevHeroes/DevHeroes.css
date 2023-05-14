@@ -1,17 +1,16 @@
 .devheroes{
-    /* background-color: #FFF; */
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.486);
     padding: 20px;
     width: 350px;
     height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    text-align: center;
     
 }
-.deheroes img{
-    width: 250px;
-    height: 250px;
+.devheroes h2{
+    border-bottom:  4px solid;
+    display: inline-block;
+    padding-bottom: 5px;
+    
 }
