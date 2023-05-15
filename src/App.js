@@ -34,7 +34,7 @@ function App() {
     },
     {
       tipo: 'Mago',
-      corDeFundo: '#00BCD4',
+      corDeFundo: '#2196F3',
       imagem: mago,
       caracteristica: 'Habilidade de sumir após dicas confusas'
     },
@@ -63,12 +63,11 @@ function App() {
       />
       {classes.map(classe => <DevHeroes 
       key={classe.tipo} 
-      tipo ={classe.tipo}
       corDeFundo={classe.corDeFundo}
-      caracteristica={classe.caracteristica}
       imagem={classe.imagem}
-      herois={herois}
-      nome=''
+      nome= "{nome}" //Usuário escolhe
+      tipo ={classe.tipo} //Usuário escolhe
+      caracteristica={classe.caracteristica} //Usuário escolhe
       />)}
       <Footer/>
 

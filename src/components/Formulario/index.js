@@ -5,6 +5,9 @@ import './Formulario.css'
 import { useState } from 'react'
 
 const Formulario = (props) =>{
+    const [nome, setNome] = useState('')
+    const [classe, setClasse] = useState('')
+    const [caract, setCaract] = useState('')
 
     function criaHeroi(e){
         e.preventDefault()
@@ -13,14 +16,11 @@ const Formulario = (props) =>{
             classe, 
             caract
         })
-        
+        setNome('')
+        setClasse('')
+        setCaract('')
     }
     
-
-    const [nome, setNome] = useState('')
-    const [classe, setClasse] = useState('')
-    const [caract, setCaract] = useState('')
-
     return(
         <div className='container-formulario'>
             <form onSubmit={criaHeroi} >

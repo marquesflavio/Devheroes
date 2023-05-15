@@ -4,13 +4,13 @@
     DevHeroes / Site para o usuário montar sua liga de heróis RPGs
 
 ●	Objetivo do Projeto
-[] Utilizar/Aprender React 
+[X] Utilizar/Aprender React 
 [] Utilizar uma tag de audio do HTML
 [] Carrossel de imagens dos heróis criados
 
 ●   Objetivos secundários
 [] Criar componentes interativos com JavaScript, exemplo o botão do menu do projeto (Code in Rio) 
-[] Layout responsivo
+[X] Layout responsivo
 
 ## Execução    
 [X] Fazer ele com Git, através do terminal.
@@ -18,12 +18,11 @@
 [X] Pegar imagens dos personagens
 [X] Criar o arquivo React
 [X] Fazer cabeçalho
-[] Fazer sessão dos herois
+[X] Fazer sessão dos herois
     - input com nome OK
     - classe com selector OK
     - característica especial 
     - botão de criar
-[] Fazer carrossel com os heróis criados
 [] Criar rodapé
 
 ## Pós 
