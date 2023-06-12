@@ -1,18 +1,16 @@
 import Header from "./components/Header";
-import Formulario from "./components/Formulario"
-import Footer from "./components/Footer"
+import Formulario from "./components/Formulario";
+import Footer from "./components/Footer";
 import { useState } from "react";
-import DevHeroes from "./components/DevHeroes";
+import CardHeroiPronto from "./components/CardHeroiPronto/CardHeroiPronto";
 import barbaro from './components/DevHeroes/imagem/barbaro.png'
 import bardo from './components/DevHeroes/imagem/bardo.png'
 import elfo from './components/DevHeroes/imagem/elfo.png'
 import mago from './components/DevHeroes/imagem/mago.png'
 import princesa from './components/DevHeroes/imagem/princesa.png'
 
-
 function App() {
 
-       
   const classes = [
     {
       tipo: 'Bárbaro',
@@ -61,14 +59,6 @@ function App() {
         caracteristicas={classes.map(item => item.caracteristica)}//refatorando para a lista de herois ficar num lugar só.
         heroiCadastrado={heroi => novoHeroiAdicionado(heroi)}
       />
-      {classes.map(classe => <DevHeroes 
-      key={classe.tipo} 
-      corDeFundo={classe.corDeFundo}
-      imagem={classe.imagem}
-      nome= "{nome}" //Usuário escolhe
-      tipo ={classe.tipo} //Usuário escolhe
-      caracteristica={classe.caracteristica} //Usuário escolhe
-      />)}
       <Footer/>
 
     </div>
