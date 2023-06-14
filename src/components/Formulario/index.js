@@ -3,7 +3,7 @@ import ListaSuspensa from '../ListaSuspensa'
 import Botao from '../Botao'
 import './Formulario.css'
 import { useState } from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Formulario = (props) =>{
     const [nome, setNome] = useState('')
@@ -47,13 +47,12 @@ const Formulario = (props) =>{
                 
                 />
 
-                {/* <Link to="/heroicriado"  */}
+            {/* <Link to="/heroicriado"> */}
                 <Botao>
-                    Criar Herói
-                </Botao> 
-                {/* /> */}
+                    Criar Card
+                </Botao>
 
-
+            {/* </Link> */}
 
             </form>
 

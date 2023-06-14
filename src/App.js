@@ -2,7 +2,6 @@ import Header from "./components/Header";
 import Formulario from "./components/Formulario";
 import Footer from "./components/Footer";
 import { useState } from "react";
-import CardHeroiPronto from "./components/CardHeroiPronto/CardHeroiPronto";
 import barbaro from './components/DevHeroes/imagem/barbaro.png'
 import bardo from './components/DevHeroes/imagem/bardo.png'
 import elfo from './components/DevHeroes/imagem/elfo.png'
