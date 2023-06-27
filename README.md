@@ -4,9 +4,7 @@
     DevHeroes / Site para o usuário montar sua liga de heróis RPGs
 
 ●	Objetivo do Projeto
-[X] Utilizar/Aprender React 
-[] Utilizar uma tag de audio do HTML
-[] Carrossel de imagens dos heróis criados
+[X] Utilizar/Aprender React
 
 ●   Objetivos secundários
 [] Criar componentes interativos com JavaScript, exemplo o botão do menu do projeto (Code in Rio) 
@@ -23,7 +21,7 @@
     - classe com selector OK
     - característica especial 
     - botão de criar
-[] Criar rodapé
+[X] Criar rodapé
 
 ## Pós 
 ●	O que aprendeu com o projeto - Destacar partes do código para cada aprendizado
