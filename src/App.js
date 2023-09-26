@@ -8,38 +8,38 @@ import elfo from './components/DevHeroes/imagem/elfo.png'
 import mago from './components/DevHeroes/imagem/mago.png'
 import princesa from './components/DevHeroes/imagem/princesa.png'
 
-function App() {
+export default function App() {
 
   const classes = [
     {
       tipo: 'Bárbaro',
       corDeFundo: '#795548',
       imagem: barbaro,
-      caracteristica: 'Muita força e pouco cérebro'
+      
     },
     {
       tipo: 'Bardo',
       corDeFundo: '#F44336',
       imagem: bardo ,
-      caracteristica: 'Acordes afinados e dedos ágeis'
+      
     },
     {
       tipo: 'Elfo',
       corDeFundo: '#8BC34A',
       imagem: elfo,
-      caracteristica: 'Flechas brilhantes e cabelos sedosos'
+      
     },
     {
       tipo: 'Mago',
       corDeFundo: '#2196F3',
       imagem: mago,
-      caracteristica: 'Habilidade de sumir após dicas confusas'
+      
     },
     {
       tipo: 'Princesa',
       corDeFundo: '#E91E63',
       imagem: princesa,
-      caracteristica: 'Conquista até o inimigo'
+      
     },
 ]
 
@@ -64,4 +64,3 @@ function App() {
   );
 }
 
-export default App;

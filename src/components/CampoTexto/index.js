@@ -1,29 +1,23 @@
-
 import { useState } from 'react'
 import './CampoTexto.css'
 
-const CampoTexto = (props) => {
-
-//    hook serve para manter um estado dentro de uma função
-
+export default function CampoTexto ({ placeholder, label }) {
+    //    hook serve para manter um estado dentro de uma função
     const [valor, setValor] = useState('')
-
-    const aoDigitado = (evento) =>{
+    const aoDigitado = (evento) => {
         setValor(evento.target.value)
-
     }
 
-    return(
+    return (
         <div className="campo-texto">
-            <label>{props.label}</label>
+            <label>{label}</label>
             <input
-            onChange={aoDigitado}
-            value={valor} 
-            type='text' 
-            placeholder={props.placeholder}
+                onChange={aoDigitado}
+                value={valor}
+                type='text'
+                placeholder={placeholder}
             />
         </div>
     )
 }
 
-export default CampoTexto

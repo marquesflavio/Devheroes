@@ -39,13 +39,7 @@ const Formulario = (props) =>{
                     aoAlterado={valor => setClasse(valor)}
 
                 />
-                <ListaSuspensa
-                    label="Característica:"
-                    itens={props.caracteristicas}
-                    valor={caract}
-                    aoAlterado={valor => setCaract(valor)}
                 
-                />
 
             {/* <Link to="/heroicriado"> */}
                 <Botao>

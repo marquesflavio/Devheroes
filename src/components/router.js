@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import CardHeroiPronto from "./CardHeroiPronto/CardHeroiPronto";
 
@@ -17,12 +17,12 @@ function ScrollToTop() {
 const RouterApp = () => {
     return(
         <>
-        <HashRouter>
+        <BrowserRouter>
             <ScrollToTop />
             <Routes>
-                <Route path="/heroicriado" element={<CardHeroiPronto/>}></Route>
+                <Route path="/heroicriado" element={<CardHeroiPronto/>}/>
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
         </>
 
     )

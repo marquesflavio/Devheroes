@@ -1,9 +1,9 @@
 .footer{
+
     width: 100%;
-    height: 75px;
-    background-color: rgba(211, 59, 59, 0.829);
-    text-align: center;
-    padding: 10px 0 ;
+    text-align: right;
+    padding: 0px 15px;
+    
   
 }
 .footer p{
